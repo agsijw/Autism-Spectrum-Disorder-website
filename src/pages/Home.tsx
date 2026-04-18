@@ -35,7 +35,7 @@ function Home() {
           <p className="text-xl mb-8">منصة متخصصة لدعم وفهم الأشخاص المصابين باضطراب طيف التوحد وتقديم المعلومات والموارد</p>
 import { Link } from 'react-router-dom';
 
-// ثم في الـ JSX:
+
 <div className="flex justify-center gap-4">
   <Link to="/chat" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 inline-block">
     تحدث مع المساعد الذكي
