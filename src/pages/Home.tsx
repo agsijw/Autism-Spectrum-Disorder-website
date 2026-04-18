@@ -33,18 +33,18 @@ function Home() {
         <div className="container mx-auto px-4 relative">
           <h1 className="text-5xl font-bold mb-6">معاً لفهم التوحد</h1>
           <p className="text-xl mb-8">منصة متخصصة لدعم وفهم الأشخاص المصابين باضطراب طيف التوحد وتقديم المعلومات والموارد</p>
-          <div className="flex justify-center gap-4">
-            <button 
-              import { Link } from 'react-router-dom';
-              <Link to="/chat" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 inline-block">
-  تحدث مع المساعد الذكي
-</Link>
-          </button>
+import { Link } from 'react-router-dom';
 
-            <Link to="/resources" className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">
-              استكشف المواد التعليمية
-            </Link>
-          </div>
+// ثم في الـ JSX:
+<div className="flex justify-center gap-4">
+  <Link to="/chat" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 inline-block">
+    تحدث مع المساعد الذكي
+  </Link>
+  
+  <Link to="/resources" className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">
+    استكشف المواد التعليمية
+  </Link>
+</div>
         </div>
       </div>
 
