@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Centers from './pages/Centers';
 import Contact from './pages/Contact';
+import Simulator from './pages/Simulator'; // ← أضف هذا السطر هنا
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/centers" element={<Centers />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/simulator" element={<Simulator />} /> {/* ← أضف هذا السطر هنا */}
         </Routes>
         <Footer />
       </div>
     </Router>
   );
 }
-
 export default App;
