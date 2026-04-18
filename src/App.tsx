@@ -7,6 +7,7 @@ import Resources from './pages/Resources';
 import Centers from './pages/Centers';
 import Contact from './pages/Contact';
 import Simulator from './pages/Simulator'; // ← أضف هذا السطر هنا
+import Chat from './pages/Chat';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/centers" element={<Centers />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/simulator" element={<Simulator />} /> {/* ← أضف هذا السطر هنا */}
+           <Route path="/chat" element={<Chat />} />  {/* ← أضف هذا السطر */}
         </Routes>
         <Footer />
       </div>
