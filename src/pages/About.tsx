@@ -8,7 +8,7 @@ function About() {
         
         <div className="prose prose-lg text-gray-800 leading-relaxed text-right" dir="rtl">
           <p className="mb-6 text-xl">
-            مشروع <span className="font-bold text-blue-600">"معاً"</span> هو مبادرة تقنية فردية تهدف إلى إحداث تغيير إيجابي في حياة الفئات المستهدفة وأسرهم.
+            مشروع <span className="font-bold text-blue-600">" معاً لفهم التوحد"</span> هو مبادرة تقنية فردية تهدف إلى إحداث تغيير إيجابي في حياة الفئات المستهدفة وأسرهم.
           </p>
           
           <p className="mb-6">
