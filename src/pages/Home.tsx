@@ -37,6 +37,19 @@ function Home() {
             <button onClick={() => window.open('https://www.chatbase.co/chatbot-iframe/Cq-P8ltne2_f9cZo-qs8I', '_blank')} className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50">
               تحدث مع المساعد الذكي
             </button>
+            <div style={{ width: '100%', height: '700px', marginTop: '20px' }}>
+  <iframe
+    src="https://www.chatbase.co/chatbot-iframe/tOxDCcUvbynHmnhqfj1NY"
+    width="100%"
+    style={{
+      height: '100%',
+      minHeight: '700px',
+      border: 'none'
+    }}
+    frameBorder="0"
+    title="Chat Assistant"
+  />
+</div>
             <Link to="/resources" className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">
               استكشف المواد التعليمية
             </Link>
