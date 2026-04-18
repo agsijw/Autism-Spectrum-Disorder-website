@@ -10,7 +10,9 @@ function Navigation() {
           <Link to="/" className="hover:text-blue-200">الصفحة الرئيسية</Link>
           <Link to="/resources" className="hover:text-blue-200">موارد تعليمية</Link>
           <Link to="/centers" className="hover:text-blue-200">المراكز والمستشفيات</Link>
+         <Link to="/simulator" className="hover:text-blue-200">المحاكي (تجريبي)</Link>
           <Link to="/contact" className="hover:text-blue-200">تواصل معنا</Link>
+         
         </div>
       </div>
     </nav>
