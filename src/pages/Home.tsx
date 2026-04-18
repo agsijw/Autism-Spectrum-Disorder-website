@@ -34,7 +34,9 @@ function Home() {
           <h1 className="text-5xl font-bold mb-6">معاً لفهم التوحد</h1>
           <p className="text-xl mb-8">منصة متخصصة لدعم وفهم الأشخاص المصابين باضطراب طيف التوحد وتقديم المعلومات والموارد</p>
           <div className="flex justify-center gap-4">
-            <button <Link to="/chat" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 inline-block">
+            <button 
+              import { Link } from 'react-router-dom';
+              <Link to="/chat" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 inline-block">
   تحدث مع المساعد الذكي
 </Link>
           </button>
