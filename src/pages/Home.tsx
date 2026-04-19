@@ -33,7 +33,7 @@ function Home() {
         </div>
         <div className="container mx-auto px-4 relative">
           <h1 className="text-5xl font-bold mb-6">معاً لفهم التوحد</h1>
-          <p className="text-xl mb-8">منصة متخصصة لدعم وفهم الأشخاص المصابين باضطراب طيف التوحد وتقديم المعلومات والموارد</p>
+          <p className="text-xl mb-8">منصة متخصصة للمساعدة في فهم الأشخاص المصابين باضطراب طيف التوحد </p>
 
 <div className="flex justify-center gap-4">
   <Link to="/chat" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 inline-block">
@@ -59,12 +59,11 @@ function Home() {
                 </h2>
                 <div className="prose prose-lg mx-auto">
                   <p className="mb-6 text-gray-700">
-                    نحن منظمة متخصصة في تقديم الدعم والمساعدة لمجتمعنا. نعمل بجد لتحقيق
-                    أهدافنا وخدمة المجتمع بأفضل طريقة ممكنة.
+                    مشروع 'معاً لفهم التوحد' هو مبادرة تقنية فردية تهدف إلى إحداث تغيير إيجابي في حياة الفئات المستهدفة وأسرهم
                   </p>
                   <p className="text-gray-700">
-                    تأسسنا بهدف إحداث تغيير إيجابي في المجتمع، ونسعى دائماً لتطوير
-                    خدماتنا وتوسيع نطاق تأثيرنا.
+                    صممتُ هذه المنصة لتوفير أدوات ذكية، مثل المساعد الافتراضي ودليل الخدمات الشامل،
+                    لضمان وصول الدعم الصحيح لكل محتاج في الوقت المناسب، وبأفضل جودة ممكنة
                   </p>
                 </div>
               </div>
